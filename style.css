@@ -294,18 +294,6 @@ header.scrolled {
     object-fit: contain;
 }
 
-
-/* =========================
-   Portfolio Section
-========================= */
-
-#portfolio {
-    min-height: 100vh;
-    background-color: #0A0A09;
-    box-sizing: border-box;
-    padding: 120px 70px;
-}
-
 /* =========================
    Portfolio Section
 ========================= */
