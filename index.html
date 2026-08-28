@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <p>MY PORTFOLIO</p>
+            </div>
+            <div class="nav-buttons">
+                <a href="#home">Home</a>
+                <a href="#about">About me</a>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </header>
+        <main>
+            <section id="home">
+                <div class="container-home">
+                    <div class="left-side">
+                        <div class="hero">
+                            <h1>DCIT 26</h1>
+                        </div>
+                        <div class="sub-hero">
+                            <p>Portfolio Website</p>
+                        </div>
+                        <div class="logo-container">
+                            <img src="images/cvsu.png">
+                            <img src="images/dcit.png">
+                            <img src="images/bscs.png">
+                        </div>
+                        <div class="introduction">
+                            <p>Hi! I'm a BSCS Student of Cavite State University - Silang <br>
+                            My name is Micko Pharell M. Natividad and welcome to my <br>
+                            Portfolio Website.
+                            </p>
+                        </div>
+                        <button class="view-button" onclick="location.href='#portfolio'">
+                            <p>View My Work →</p>
+                        </button>
+                        <p class="extra-text">- Sleep Deprived</p>
+                    </div>
+                    <div class="right-side">
+                        <img src="images/profile.png">
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <div class="container-about">
+                    <h1>ABOUT ME</h1>
+
+                    <img src="images/cvsu.png">
+
+                    <p>Hello! once again my name is Micko Pharell M. Natividad <br>
+                    I am 20 Years Old! <br>
+                    BSCS Student of Cavite State University - Silang <br> 
+                    and Welcome to my Portfolio Website!
+                    </p>
+
+                    <br><br><br><br><br><br>
+
+                    <h1>Skills</h1>
+                    <div class="skills-logo">
+                        <img src="images/c++.png">
+                        <img src="images/java.png">
+                        <img src="images/mySql.png">
+                        <img src="images/htmlcssjavascript.png">
+                        <img src="images/cSharp.png">
+                        <img src="images/c.png">
+                    </div>
+                    
+
+                    <p>
+                        I've used these languages in several projects and group<br>
+                        activities. I'm still learning and improving my skills,<br>
+                        and I know I have a lot more to learn, but I'm<br>
+                        always willing to keep practicing and getting better.
+                    </p>
+
+                    <br><br><br><br><br><br>
+
+                    <h1>Contacts</h1>
+                    <div class="image-container">
+                        <div>
+                            <a href="https://www.facebook.com/mickopharell.natividad.1"><img src="images/fb.png"></a>
+                            <p>Facebook</p>
+                        </div>
+                        <div>
+                            <a href="https://github.com/Yurei0012"><img src="images/github.png"></a>
+                            <p>Github</p>
+                        </div>
+                        <div>
+                            <a href="https://discord.com/users/681781192974139412"><img src="images/discord.png"></a>
+                            <p>Discord</p>
+                        </div>
+                    </div>
+
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                    <div class="donation-container">
+                        <img src="images/frieren.png">
+                        <img src="images/gcash.png">
+                        <p>+63 908 652 6492 - MI**O PH****L N.</p>
+                        <p>Donations Pls</p>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="portfolio-container">
+                    <h1>MY PORTFOLIO</h1>
+                    <p>Quiz 1</p>
+                    <div class="portfolio-images">
+                        <div class="portfolio-left">
+                            <img src="images/front-quiz1.png">
+                        </div>
+                        <div class="portfolio-right">
+                            <img src="images/back-quiz1.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer-container">
+                    <h1>THANK YOU!</h1>
+                    <img src="images/ryo.png">
+                    <p>Created and Designed by: Micko</p>
+                    <p>All rights reserved 2026</p>
+
+                    <br><br><br>
+
+                    <p>figma design link: </p> <a href="https://www.figma.com/design/TR8vhMTLl3wua0QmsXS8uj/Untitled?node-id=0-1&t=01ozDLIwfKSxxKxR-1">click here</a>
+                </div>
+            </footer>
+        </main>
+
+        <script>
+            window.addEventListener("scroll", function() {
+                const header = document.querySelector("header");
+
+                if (window.scrollY > 50) {
+                    header.classList.add("scrolled");
+                } else {
+                    header.classList.remove("scrolled");
+                }
+            });
+        </script>
+    </body>
+</html>
