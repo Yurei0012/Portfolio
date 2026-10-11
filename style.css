@@ -294,9 +294,19 @@ header.scrolled {
     object-fit: contain;
 }
 
+
 /* =========================
    Portfolio Section
 ========================= */
+
+#portfolio {
+    min-height: 100vh;
+    background-color: #0A0A09;
+    box-sizing: border-box;
+    padding: 120px 70px;
+}
+
+
 
 #portfolio {
     min-height: 150vh;
@@ -334,12 +344,36 @@ header.scrolled {
     width: 50%;
 }
 
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+}
+
+.portfolio-left,
+.portfolio-right {
+    width: calc(50% - 20px);
+}
+
 .portfolio-left img,
 .portfolio-right img {
     width: 100%;
     height: 1000px;
     object-fit: cover;
     display: block;
+}
+
+/* Test image goes below both images */
+.portfolio-down {
+    width: 100%;
+}
+
+.portfolio-down img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 
 @media (max-width: 900px) {
